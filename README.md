@@ -31,7 +31,7 @@ POST /api/v1/convert
 **请求示例：**
 
 ```bash
-curl --location --request POST 'http://localhost:8080/api/v1/convert' \
+curl --location --request POST 'http://localhost:8080/api/convert' \
 --form 'file=@/path/to/file.litematic'
 ```
 
